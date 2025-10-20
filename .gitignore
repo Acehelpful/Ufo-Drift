@@ -73,3 +73,106 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+# =============== #
+# Unity generated #
+# =============== #
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+[Aa]sset[Bb]undles/
+
+# =========== #
+# OS Specific #
+# =========== #
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================= #
+# IDE / Editor junk #
+# ================= #
+
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.sln
+*.unityproj
+*.booproj
+
+# ================ #
+# Visual Studio / Rider #
+# ================ #
+
+*.vs/
+*.DotSettings.user
+
+# ============== #
+# Unity packages #
+# ============== #
+
+# Nur 'Packages/manifest.json' und evtl. 'packages-lock.json' versionieren
+Packages/com.unity.package-manager.cache/
+Packages/com.unity.collab-proxy/
+
+# ============== #
+# Builds / Output #
+# ============== #
+
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.zip
+*.tar.gz
+
+# ================= #
+# Crash / Debug Data #
+# ================= #
+
+sysinfo.txt
+*.stacktrace
+*.dmp
+*.crash
+*.diag
+
+# ============ #
+# Profiling / Cache #
+# ============ #
+
+*.prof
+*.profile
+*.pidb.meta
+*.mdb
+*.pdb
+*.opendb
+*.VC.db
+*.swp
+*.tmp
+*.bak
+
+# ============== #
+# TextMeshPro etc #
+# ============== #
+
+TextMesh Pro/Examples & Extras/
+
+# ============== #
+# Addressables    #
+# ============== #
+
+[Aa]sset[Bb]undles/
+[Aa]ddressable[Aa]ssets[Dd]ata/*/Build/
+[Aa]ddressable[Aa]ssets[Dd]ata/*/info_*
+[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
