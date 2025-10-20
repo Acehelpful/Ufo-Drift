@@ -77,7 +77,9 @@ public class Player : MonoBehaviour
         Destroy(gameObject);
         Instantiate(Explosion, transform.position, transform.rotation);
         Restart.style.display = DisplayStyle.Flex;
-        highscore = Mathf.FloorToInt(highscore); 
+        highscore = Mathf.FloorToInt(highscore);
+        highscore = PlayerPrefs.GetFloat("Highscore", 0);
+
         if (punkte > highscore)
         {
 
@@ -86,7 +88,6 @@ public class Player : MonoBehaviour
             PlayerPrefs.Save();
 
         }
-        highscore = PlayerPrefs.GetFloat("Highscore", 0);
         highscorelabel.text = "Maxwin: " + highscore;
         highscorelabel.style.display = DisplayStyle.Flex;
 
